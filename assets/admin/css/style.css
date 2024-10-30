@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "meta-box.css";
+
+
+.cf7r-btn,
+a.cf7r-btn,
+a.cf7r-btn:active,
+a.cf7r-btn:focus,
+a.cf7r-btn:hover,
+a.cf7r-btn:visited {
+    padding: 6px 15px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    transition: background 0.3s linear;
+}
+
+.cf7r-btn-danger,
+.cf7r-btn-danger:active,
+.cf7r-btn-danger:focus,
+.cf7r-btn-danger:visited{
+    background: #fff;
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+
+.cf7r-btn-danger:hover {
+    background: #f44336;
+    color: #ffffff;
+    border: 1px solid #F44336;
+}
+
+.cf7r-btn-success,
+.cf7r-btn-success:active,
+.cf7r-btn-success:focus,
+.cf7r-btn-success:visited {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.cf7r-btn-success:hover {
+    background: #2f7131;
+}
+
+
+.contact_page_cf7-responses .tablenav.top {
+    margin: 12px 0;
+}
+
+
+/*.alignleft.cf7r-export {*/
+    /*margin: 2px 0;*/
+/*}*/
+
+.row-actions .shortcode-view {
+    color: #6f6f6f;
+    border: 1px solid #6f6f6f;
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.row-actions .timeago-view {
+    color: #6f6f6f;
+    font-style: italic;
+}
+
+
+.cf7r-unread-responses .wp-menu-image.dashicons-before.dashicons-email:after {
+    content: ' ';
+    background: #FFC107;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 50%;
+    top: 3px;
+    left: 0px;
+}
